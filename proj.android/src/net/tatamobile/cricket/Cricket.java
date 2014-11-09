@@ -26,12 +26,20 @@ package net.tatamobile.cricket;
 import org.cocos2dx.lib.Cocos2dxActivity;
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 public class Cricket extends Cocos2dxActivity{
+    
+    public static SharedPreferences sharedPreferences;
+    public static SharedPreferences.Editor editor;
 	
     protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);	
+		
+	      sharedPreferences = this.getSharedPreferences("cricket",Context.MODE_PRIVATE);
+	      editor = sharedPreferences.edit();
 	}
 
     public Cocos2dxGLSurfaceView onCreateView() {
@@ -40,6 +48,85 @@ public class Cricket extends Cocos2dxActivity{
     	glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
     	
     	return glSurfaceView;
+    }
+    
+    public static void saveBool(String key, boolean value)
+    {
+         try
+         {
+             //SharedPreferences.Editor editor = sharedPreferences.edit();
+             editor.putBoolean(key,value);
+             editor.commit();
+         }
+         catch (Exception e)
+         {
+             return;
+         }
+    }
+    public static boolean getBool(String key, boolean defValue)
+    {
+         try
+         {
+               boolean v = sharedPreferences.getBoolean(key, defValue);
+               return v;
+         }
+         catch (Exception e)
+         {
+              return false;
+         }
+    }
+    public static void saveInt(String key, int value)
+    {
+         try
+         {
+             //SharedPreferences.Editor editor = sharedPreferences.edit();
+             editor.putInt(key,value);
+             editor.commit();
+         }
+         catch (Exception e)
+         {
+             return;
+         }
+    }
+    public static int getInt(String key, int defValue)
+    {
+         try
+         {
+               int v = sharedPreferences.getInt(key, defValue);
+               return v;
+         }
+         catch (Exception e)
+         {
+              return -1000;
+         }
+    }
+    
+    //保存数组的方法
+    public static void saveIntArr(String key,int[] value,int ROW,int COL)
+    {
+        for(int i=0;i<ROW;i++)
+        {
+            for(int j=0;j<COL;j++)
+            {
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putInt(key+i+j,value[i*COL+j]);
+                editor.commit();
+            }
+        }
+    }
+    
+    //得到数组的方法
+    public static int[] getIntArr(String key,int ROW,int COL)
+    {
+        int arr[] = new int[ROW*COL];
+        for(int i=0;i<ROW;i++)
+        {
+            for(int j=0;j<COL;j++)
+            {
+                arr[i*COL+j] = sharedPreferences.getInt(key+i+j, -1000);
+            }
+        }
+        return arr;
     }
 
     static {

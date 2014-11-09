@@ -8,7 +8,22 @@ LOCAL_MODULE_FILENAME := libcocos2dcpp
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-                   ../../Classes/HelloWorldScene.cpp
+                   ../../Classes/AppMacros.cpp \
+                   ../../Classes/BanQiuLayer.cpp \
+                   ../../Classes/BanQiuSceneManager.cpp \
+                   ../../Classes/BallTest.cpp \
+                   ../../Classes/FielderSprite.cpp \
+                   ../../Classes/NewGameLayer.cpp \
+                   ../../Classes/WinLayer.cpp \
+                   ../../Classes/LoseLayer.cpp \
+                   ../../Classes/BeginLayer.cpp \
+                   ../../Classes/HelpLayer.cpp \
+                   ../../Classes/AchieveLayer.cpp \
+                   ../../Classes/Prop.cpp \
+                   ../../Classes/DialogLayer.cpp \
+                   ../../Classes/OutLayer.cpp \
+                   ../../Classes/SetLayer.cpp \
+                   ../../Classes/OpenLayer.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 

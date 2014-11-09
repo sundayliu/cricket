@@ -205,7 +205,27 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
+		9237A4BF1A0F74E400EFDD1E /* UserRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9237A4BE1A0F74E400EFDD1E /* UserRecord.cpp */; };
+		9237A59C1A0F92B400EFDD1E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9237A5981A0F92B400EFDD1E /* fonts */; };
+		9237A59D1A0F92B400EFDD1E /* Particles in Resources */ = {isa = PBXBuildFile; fileRef = 9237A5991A0F92B400EFDD1E /* Particles */; };
+		9237A59E1A0F92B400EFDD1E /* pic in Resources */ = {isa = PBXBuildFile; fileRef = 9237A59A1A0F92B400EFDD1E /* pic */; };
+		9237A59F1A0F92B400EFDD1E /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 9237A59B1A0F92B400EFDD1E /* sound */; };
 		926155E81A0E2F9E0074EDAB /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 926155E71A0E2F9E0074EDAB /* libstdc++.dylib */; };
+		9261560B1A0EFFB10074EDAB /* AchieveLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926155FB1A0EFFB10074EDAB /* AchieveLayer.cpp */; };
+		9261560C1A0EFFB10074EDAB /* BallTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926155FC1A0EFFB10074EDAB /* BallTest.cpp */; };
+		9261560D1A0EFFB10074EDAB /* BanQiuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926155FD1A0EFFB10074EDAB /* BanQiuLayer.cpp */; };
+		9261560E1A0EFFB10074EDAB /* BanQiuSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926155FE1A0EFFB10074EDAB /* BanQiuSceneManager.cpp */; };
+		9261560F1A0EFFB10074EDAB /* BeginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926155FF1A0EFFB10074EDAB /* BeginLayer.cpp */; };
+		926156101A0EFFB10074EDAB /* DialogLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156001A0EFFB10074EDAB /* DialogLayer.cpp */; };
+		926156111A0EFFB10074EDAB /* FielderSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156011A0EFFB10074EDAB /* FielderSprite.cpp */; };
+		926156121A0EFFB10074EDAB /* HelpLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156021A0EFFB10074EDAB /* HelpLayer.cpp */; };
+		926156131A0EFFB10074EDAB /* LoseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156031A0EFFB10074EDAB /* LoseLayer.cpp */; };
+		926156151A0EFFB10074EDAB /* NewGameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156051A0EFFB10074EDAB /* NewGameLayer.cpp */; };
+		926156161A0EFFB10074EDAB /* OpenLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156061A0EFFB10074EDAB /* OpenLayer.cpp */; };
+		926156171A0EFFB10074EDAB /* OutLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156071A0EFFB10074EDAB /* OutLayer.cpp */; };
+		926156181A0EFFB10074EDAB /* Prop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156081A0EFFB10074EDAB /* Prop.cpp */; };
+		926156191A0EFFB10074EDAB /* SetLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 926156091A0EFFB10074EDAB /* SetLayer.cpp */; };
+		9261561A1A0EFFB10074EDAB /* WinLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9261560A1A0EFFB10074EDAB /* WinLayer.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -643,7 +663,45 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		9237A4BD1A0F71EF00EFDD1E /* UserRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UserRecord.h; path = ../Classes/UserRecord.h; sourceTree = "<group>"; };
+		9237A4BE1A0F74E400EFDD1E /* UserRecord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UserRecord.cpp; path = ../Classes/UserRecord.cpp; sourceTree = "<group>"; };
+		9237A5981A0F92B400EFDD1E /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		9237A5991A0F92B400EFDD1E /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Particles; sourceTree = "<group>"; };
+		9237A59A1A0F92B400EFDD1E /* pic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pic; sourceTree = "<group>"; };
+		9237A59B1A0F92B400EFDD1E /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
 		926155E71A0E2F9E0074EDAB /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		926155E91A0EFFB10074EDAB /* AchieveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AchieveLayer.h; path = ../Classes/AchieveLayer.h; sourceTree = "<group>"; };
+		926155EA1A0EFFB10074EDAB /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacros.h; path = ../Classes/AppMacros.h; sourceTree = "<group>"; };
+		926155EB1A0EFFB10074EDAB /* BallTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallTest.h; path = ../Classes/BallTest.h; sourceTree = "<group>"; };
+		926155EC1A0EFFB10074EDAB /* BanQiuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BanQiuLayer.h; path = ../Classes/BanQiuLayer.h; sourceTree = "<group>"; };
+		926155ED1A0EFFB10074EDAB /* BanQiuSceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BanQiuSceneManager.h; path = ../Classes/BanQiuSceneManager.h; sourceTree = "<group>"; };
+		926155EE1A0EFFB10074EDAB /* BeginLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeginLayer.h; path = ../Classes/BeginLayer.h; sourceTree = "<group>"; };
+		926155EF1A0EFFB10074EDAB /* DialogLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogLayer.h; path = ../Classes/DialogLayer.h; sourceTree = "<group>"; };
+		926155F01A0EFFB10074EDAB /* FielderSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FielderSprite.h; path = ../Classes/FielderSprite.h; sourceTree = "<group>"; };
+		926155F11A0EFFB10074EDAB /* HelpLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpLayer.h; path = ../Classes/HelpLayer.h; sourceTree = "<group>"; };
+		926155F31A0EFFB10074EDAB /* LoseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoseLayer.h; path = ../Classes/LoseLayer.h; sourceTree = "<group>"; };
+		926155F41A0EFFB10074EDAB /* NewGameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGameLayer.h; path = ../Classes/NewGameLayer.h; sourceTree = "<group>"; };
+		926155F51A0EFFB10074EDAB /* OpenLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenLayer.h; path = ../Classes/OpenLayer.h; sourceTree = "<group>"; };
+		926155F61A0EFFB10074EDAB /* OutLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutLayer.h; path = ../Classes/OutLayer.h; sourceTree = "<group>"; };
+		926155F71A0EFFB10074EDAB /* Prop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prop.h; path = ../Classes/Prop.h; sourceTree = "<group>"; };
+		926155F81A0EFFB10074EDAB /* SetLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetLayer.h; path = ../Classes/SetLayer.h; sourceTree = "<group>"; };
+		926155F91A0EFFB10074EDAB /* TransUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransUtil.h; path = ../Classes/TransUtil.h; sourceTree = "<group>"; };
+		926155FA1A0EFFB10074EDAB /* WinLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinLayer.h; path = ../Classes/WinLayer.h; sourceTree = "<group>"; };
+		926155FB1A0EFFB10074EDAB /* AchieveLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AchieveLayer.cpp; path = ../Classes/AchieveLayer.cpp; sourceTree = "<group>"; };
+		926155FC1A0EFFB10074EDAB /* BallTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BallTest.cpp; path = ../Classes/BallTest.cpp; sourceTree = "<group>"; };
+		926155FD1A0EFFB10074EDAB /* BanQiuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BanQiuLayer.cpp; path = ../Classes/BanQiuLayer.cpp; sourceTree = "<group>"; };
+		926155FE1A0EFFB10074EDAB /* BanQiuSceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BanQiuSceneManager.cpp; path = ../Classes/BanQiuSceneManager.cpp; sourceTree = "<group>"; };
+		926155FF1A0EFFB10074EDAB /* BeginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BeginLayer.cpp; path = ../Classes/BeginLayer.cpp; sourceTree = "<group>"; };
+		926156001A0EFFB10074EDAB /* DialogLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DialogLayer.cpp; path = ../Classes/DialogLayer.cpp; sourceTree = "<group>"; };
+		926156011A0EFFB10074EDAB /* FielderSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FielderSprite.cpp; path = ../Classes/FielderSprite.cpp; sourceTree = "<group>"; };
+		926156021A0EFFB10074EDAB /* HelpLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelpLayer.cpp; path = ../Classes/HelpLayer.cpp; sourceTree = "<group>"; };
+		926156031A0EFFB10074EDAB /* LoseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoseLayer.cpp; path = ../Classes/LoseLayer.cpp; sourceTree = "<group>"; };
+		926156051A0EFFB10074EDAB /* NewGameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NewGameLayer.cpp; path = ../Classes/NewGameLayer.cpp; sourceTree = "<group>"; };
+		926156061A0EFFB10074EDAB /* OpenLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenLayer.cpp; path = ../Classes/OpenLayer.cpp; sourceTree = "<group>"; };
+		926156071A0EFFB10074EDAB /* OutLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OutLayer.cpp; path = ../Classes/OutLayer.cpp; sourceTree = "<group>"; };
+		926156081A0EFFB10074EDAB /* Prop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prop.cpp; path = ../Classes/Prop.cpp; sourceTree = "<group>"; };
+		926156091A0EFFB10074EDAB /* SetLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SetLayer.cpp; path = ../Classes/SetLayer.cpp; sourceTree = "<group>"; };
+		9261560A1A0EFFB10074EDAB /* WinLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WinLayer.cpp; path = ../Classes/WinLayer.cpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1178,10 +1236,44 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				926155FB1A0EFFB10074EDAB /* AchieveLayer.cpp */,
+				926155E91A0EFFB10074EDAB /* AchieveLayer.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
+				926155EA1A0EFFB10074EDAB /* AppMacros.h */,
+				926155FC1A0EFFB10074EDAB /* BallTest.cpp */,
+				926155EB1A0EFFB10074EDAB /* BallTest.h */,
+				926155FD1A0EFFB10074EDAB /* BanQiuLayer.cpp */,
+				926155EC1A0EFFB10074EDAB /* BanQiuLayer.h */,
+				926155FE1A0EFFB10074EDAB /* BanQiuSceneManager.cpp */,
+				926155ED1A0EFFB10074EDAB /* BanQiuSceneManager.h */,
+				926155FF1A0EFFB10074EDAB /* BeginLayer.cpp */,
+				926155EE1A0EFFB10074EDAB /* BeginLayer.h */,
+				926156001A0EFFB10074EDAB /* DialogLayer.cpp */,
+				926155EF1A0EFFB10074EDAB /* DialogLayer.h */,
+				926156011A0EFFB10074EDAB /* FielderSprite.cpp */,
+				926155F01A0EFFB10074EDAB /* FielderSprite.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				926156021A0EFFB10074EDAB /* HelpLayer.cpp */,
+				926155F11A0EFFB10074EDAB /* HelpLayer.h */,
+				926156031A0EFFB10074EDAB /* LoseLayer.cpp */,
+				926155F31A0EFFB10074EDAB /* LoseLayer.h */,
+				926156051A0EFFB10074EDAB /* NewGameLayer.cpp */,
+				926155F41A0EFFB10074EDAB /* NewGameLayer.h */,
+				926156061A0EFFB10074EDAB /* OpenLayer.cpp */,
+				926155F51A0EFFB10074EDAB /* OpenLayer.h */,
+				926156071A0EFFB10074EDAB /* OutLayer.cpp */,
+				926155F61A0EFFB10074EDAB /* OutLayer.h */,
+				926156081A0EFFB10074EDAB /* Prop.cpp */,
+				926155F71A0EFFB10074EDAB /* Prop.h */,
+				926156091A0EFFB10074EDAB /* SetLayer.cpp */,
+				926155F81A0EFFB10074EDAB /* SetLayer.h */,
+				926155F91A0EFFB10074EDAB /* TransUtil.h */,
+				9261560A1A0EFFB10074EDAB /* WinLayer.cpp */,
+				926155FA1A0EFFB10074EDAB /* WinLayer.h */,
+				9237A4BD1A0F71EF00EFDD1E /* UserRecord.h */,
+				9237A4BE1A0F74E400EFDD1E /* UserRecord.cpp */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1480,6 +1572,10 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9237A5981A0F92B400EFDD1E /* fonts */,
+				9237A5991A0F92B400EFDD1E /* Particles */,
+				9237A59A1A0F92B400EFDD1E /* pic */,
+				9237A59B1A0F92B400EFDD1E /* sound */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -1567,18 +1663,22 @@
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
+				9237A59F1A0F92B400EFDD1E /* sound in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				9237A59E1A0F92B400EFDD1E /* pic in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				1A9CE8881765A12C000E3062 /* json_internalarray.inl in Resources */,
+				9237A59D1A0F92B400EFDD1E /* Particles in Resources */,
 				1A9CE8891765A12C000E3062 /* json_internalmap.inl in Resources */,
 				1A9CE88C1765A12C000E3062 /* json_valueiterator.inl in Resources */,
 				1A9CE88E1765A12C000E3062 /* sconscript in Resources */,
+				9237A59C1A0F92B400EFDD1E /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1596,15 +1696,18 @@
 				15A3D9031682F7D5002FB0C5 /* b2Collision.cpp in Sources */,
 				15A3D9041682F7D5002FB0C5 /* b2Distance.cpp in Sources */,
 				15A3D9051682F7D5002FB0C5 /* b2DynamicTree.cpp in Sources */,
+				9261560D1A0EFFB10074EDAB /* BanQiuLayer.cpp in Sources */,
 				15A3D9061682F7D5002FB0C5 /* b2TimeOfImpact.cpp in Sources */,
 				15A3D9071682F7D5002FB0C5 /* b2ChainShape.cpp in Sources */,
 				15A3D9081682F7D5002FB0C5 /* b2CircleShape.cpp in Sources */,
 				15A3D9091682F7D5002FB0C5 /* b2EdgeShape.cpp in Sources */,
 				15A3D90A1682F7D5002FB0C5 /* b2PolygonShape.cpp in Sources */,
+				926156121A0EFFB10074EDAB /* HelpLayer.cpp in Sources */,
 				15A3D90B1682F7D5002FB0C5 /* b2BlockAllocator.cpp in Sources */,
 				15A3D90C1682F7D5002FB0C5 /* b2Draw.cpp in Sources */,
 				15A3D90D1682F7D5002FB0C5 /* b2Math.cpp in Sources */,
 				15A3D90E1682F7D5002FB0C5 /* b2Settings.cpp in Sources */,
+				9261560F1A0EFFB10074EDAB /* BeginLayer.cpp in Sources */,
 				15A3D90F1682F7D5002FB0C5 /* b2StackAllocator.cpp in Sources */,
 				15A3D9101682F7D5002FB0C5 /* b2Timer.cpp in Sources */,
 				15A3D9111682F7D5002FB0C5 /* b2Body.cpp in Sources */,
@@ -1622,6 +1725,7 @@
 				15A3D91D1682F7D5002FB0C5 /* b2EdgeAndPolygonContact.cpp in Sources */,
 				15A3D91E1682F7D5002FB0C5 /* b2PolygonAndCircleContact.cpp in Sources */,
 				15A3D91F1682F7D5002FB0C5 /* b2PolygonContact.cpp in Sources */,
+				926156161A0EFFB10074EDAB /* OpenLayer.cpp in Sources */,
 				15A3D9201682F7D5002FB0C5 /* b2DistanceJoint.cpp in Sources */,
 				15A3D9211682F7D5002FB0C5 /* b2FrictionJoint.cpp in Sources */,
 				15A3D9221682F7D5002FB0C5 /* b2GearJoint.cpp in Sources */,
@@ -1638,6 +1742,7 @@
 				15A3D9971682F7F9002FB0C5 /* cpConstraint.c in Sources */,
 				15A3D9981682F7F9002FB0C5 /* cpDampedRotarySpring.c in Sources */,
 				15A3D9991682F7F9002FB0C5 /* cpDampedSpring.c in Sources */,
+				9261561A1A0EFFB10074EDAB /* WinLayer.cpp in Sources */,
 				15A3D99A1682F7F9002FB0C5 /* cpGearJoint.c in Sources */,
 				15A3D99B1682F7F9002FB0C5 /* cpGrooveJoint.c in Sources */,
 				15A3D99C1682F7F9002FB0C5 /* cpPinJoint.c in Sources */,
@@ -1664,7 +1769,10 @@
 				15A3D9B11682F7F9002FB0C5 /* cpSweep1D.c in Sources */,
 				15A3D9B21682F7F9002FB0C5 /* cpVect.c in Sources */,
 				15A3DA311682F826002FB0C5 /* CCBAnimationManager.cpp in Sources */,
+				926156131A0EFFB10074EDAB /* LoseLayer.cpp in Sources */,
+				926156181A0EFFB10074EDAB /* Prop.cpp in Sources */,
 				15A3DA321682F826002FB0C5 /* CCBFileLoader.cpp in Sources */,
+				926156171A0EFFB10074EDAB /* OutLayer.cpp in Sources */,
 				15A3DA331682F826002FB0C5 /* CCBKeyframe.cpp in Sources */,
 				15A3DA341682F826002FB0C5 /* CCBReader.cpp in Sources */,
 				15A3DA351682F826002FB0C5 /* CCBSequence.cpp in Sources */,
@@ -1677,6 +1785,7 @@
 				15A3DA3C1682F826002FB0C5 /* CCLabelTTFLoader.cpp in Sources */,
 				15A3DA3D1682F826002FB0C5 /* CCLayerColorLoader.cpp in Sources */,
 				15A3DA3E1682F826002FB0C5 /* CCLayerGradientLoader.cpp in Sources */,
+				926156191A0EFFB10074EDAB /* SetLayer.cpp in Sources */,
 				15A3DA3F1682F826002FB0C5 /* CCLayerLoader.cpp in Sources */,
 				15A3DA401682F826002FB0C5 /* CCMenuItemImageLoader.cpp in Sources */,
 				15A3DA411682F826002FB0C5 /* CCMenuItemLoader.cpp in Sources */,
@@ -1693,17 +1802,21 @@
 				15A3DA4C1682F826002FB0C5 /* CCControlHuePicker.cpp in Sources */,
 				15A3DA4D1682F826002FB0C5 /* CCControlPotentiometer.cpp in Sources */,
 				15A3DA4E1682F826002FB0C5 /* CCControlSaturationBrightnessPicker.cpp in Sources */,
+				9261560C1A0EFFB10074EDAB /* BallTest.cpp in Sources */,
 				15A3DA4F1682F826002FB0C5 /* CCControlSlider.cpp in Sources */,
 				15A3DA501682F826002FB0C5 /* CCControlStepper.cpp in Sources */,
 				15A3DA511682F826002FB0C5 /* CCControlSwitch.cpp in Sources */,
 				15A3DA521682F826002FB0C5 /* CCControlUtils.cpp in Sources */,
+				926156151A0EFFB10074EDAB /* NewGameLayer.cpp in Sources */,
 				15A3DA531682F826002FB0C5 /* CCInvocation.cpp in Sources */,
 				15A3DA541682F826002FB0C5 /* CCScale9Sprite.cpp in Sources */,
 				15A3DA551682F826002FB0C5 /* CCEditBox.cpp in Sources */,
 				15A3DA571682F826002FB0C5 /* CCEditBoxImplIOS.mm in Sources */,
 				15A3DA591682F826002FB0C5 /* CCScrollView.cpp in Sources */,
+				9261560E1A0EFFB10074EDAB /* BanQiuSceneManager.cpp in Sources */,
 				15A3DA5A1682F826002FB0C5 /* CCSorting.cpp in Sources */,
 				15A3DA5B1682F826002FB0C5 /* CCTableView.cpp in Sources */,
+				9261560B1A0EFFB10074EDAB /* AchieveLayer.cpp in Sources */,
 				15A3DA5C1682F826002FB0C5 /* CCTableViewCell.cpp in Sources */,
 				15A3DA5D1682F826002FB0C5 /* HttpClient.cpp in Sources */,
 				15A3DA5E1682F826002FB0C5 /* CCPhysicsDebugNode.cpp in Sources */,
@@ -1724,6 +1837,7 @@
 				1A8F3B70175E05DA00049216 /* AnimationStateData.cpp in Sources */,
 				1A8F3B71175E05DA00049216 /* Atlas.cpp in Sources */,
 				1A8F3B72175E05DA00049216 /* AtlasAttachmentLoader.cpp in Sources */,
+				926156101A0EFFB10074EDAB /* DialogLayer.cpp in Sources */,
 				1A8F3B73175E05DA00049216 /* Attachment.cpp in Sources */,
 				1A8F3B74175E05DA00049216 /* AttachmentLoader.cpp in Sources */,
 				1A8F3B75175E05DA00049216 /* Bone.cpp in Sources */,
@@ -1735,6 +1849,7 @@
 				1A8F3B7B175E05DA00049216 /* RegionAttachment.cpp in Sources */,
 				1A8F3B7C175E05DA00049216 /* Skeleton.cpp in Sources */,
 				1A8F3B7D175E05DA00049216 /* SkeletonData.cpp in Sources */,
+				926156111A0EFFB10074EDAB /* FielderSprite.cpp in Sources */,
 				1A8F3B7E175E05DA00049216 /* SkeletonJson.cpp in Sources */,
 				1A8F3B7F175E05DA00049216 /* Skin.cpp in Sources */,
 				1A8F3B80175E05DA00049216 /* Slot.cpp in Sources */,
@@ -1744,6 +1859,7 @@
 				1A9CE8781765A12C000E3062 /* AssetsManager.cpp in Sources */,
 				1A9CE8791765A12C000E3062 /* CCArmatureAnimation.cpp in Sources */,
 				1A9CE87A1765A12C000E3062 /* CCProcessBase.cpp in Sources */,
+				9237A4BF1A0F74E400EFDD1E /* UserRecord.cpp in Sources */,
 				1A9CE87B1765A12C000E3062 /* CCTween.cpp in Sources */,
 				1A9CE87C1765A12C000E3062 /* CCArmature.cpp in Sources */,
 				1A9CE87D1765A12C000E3062 /* CCBone.cpp in Sources */,
