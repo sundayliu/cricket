@@ -23,7 +23,8 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/DialogLayer.cpp \
                    ../../Classes/OutLayer.cpp \
                    ../../Classes/SetLayer.cpp \
-                   ../../Classes/OpenLayer.cpp
+                   ../../Classes/OpenLayer.cpp \
+                   ../../Classes/UserRecord.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
